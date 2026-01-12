@@ -30,3 +30,74 @@ header img {
   max-width: 480px;
   text-align: center;
 }
+
+.summary-title {
+  font-size: 1.1em;
+  text-transform: uppercase;
+  color: #d1b3ff;
+  margin-bottom: 20px;
+  letter-spacing: 2.5px;
+}
+
+.summary-details {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px dashed #6f7381;
+  border-radius: 15px;
+  padding: 25px; 
+}
+
+.summary-details p {
+  margin: 10px 0;
+  font-size: 1.05em;
+}
+
+section {
+  width: 90%;
+  max-width: 850px;
+  margin: 0 auto;
+  padding: 40px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 24px;
+  text-align: center;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 2em;
+  letter-spacing: 0.15em;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  color: #d1b3ff;
+}
+
+table {
+  margin: 0 auto;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th {
+  text-align: left;
+  text-transform: uppercase;
+  border-bottom: 2px solid #6f7381;
+  padding: 20px;
+  color: #b5b6c1;
+  font-size: 0.9em;
+}
+
+td {
+  padding: 25px 20px;
+  text-align: left;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  font-size: 1.15em;
+}
+
+.important { 
+  color: #ffffff; 
+}
+
+.overdrawn { 
+  color: #fca905;
+  font-weight: bold; 
+}

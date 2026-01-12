@@ -1,0 +1,32 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #2e1a47;
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: flex-start;
+}
+
+header {
+  padding: 40px 0 20px 0;
+  width: 100%;
+  text-align: center;
+}
+
+header img {
+  width: 320px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.summary-container {
+  margin: 20px auto 50px auto; 
+  width: 100%;
+  max-width: 480px;
+  text-align: center;
+}

@@ -1,13 +1,14 @@
 <?php
-class Account {
-    public $number;
-    public $type;
-    public $balance;
 
-    public function __construct($number, $type, $balance) {
-        $this->number = $number;
-        $this->type = $type;
-        $this->balance = $balance;
+class Account {
+    public $num;
+    public $cat;
+    public $bal;
+
+    public function __construct($num, $cat, $bal) {
+        $this->num = $num;
+        $this->cat = $cat;
+        $this->bal = $bal;
     }
 }
 ?>
